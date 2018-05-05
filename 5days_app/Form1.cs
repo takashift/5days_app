@@ -112,10 +112,16 @@ namespace _5days_app
             int lots = r.Next(3);
             label3.Text = "今日の運勢は";
 
-            String[] str = new String[3];
-            str[0] += "成し遂げたぜ。大吉";
-            str[1] += "まあまあ。吉";
-            str[2] += "凶";
+            //String[] str = new String[3];
+            //str[0] += "成し遂げたぜ。大吉";
+            //str[1] += "まあまあ。吉";
+            //str[2] += "凶";
+            String[] str =
+            {
+                "成し遂げたぜ。大吉",
+                "まあまあ。吉",
+                "凶"
+            };
 
             label3.Text += str[lots];
 
