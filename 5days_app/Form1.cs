@@ -105,5 +105,24 @@ namespace _5days_app
         {
             label2.Text = "÷";
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Random r = new Random();
+            int lots = r.Next(3);
+            label3.Text = "今日の運勢は";
+            switch(lots)
+            {
+                case (1):
+                    label3.Text += "成し遂げたぜ。大吉";
+                    break;
+                case (2):
+                    label3.Text += "まあまあ。吉";
+                    break;
+                default:
+                    label3.Text += "凶";
+                    break;
+            }
+        }
     }
 }
