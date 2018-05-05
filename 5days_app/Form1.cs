@@ -111,18 +111,26 @@ namespace _5days_app
             Random r = new Random();
             int lots = r.Next(3);
             label3.Text = "今日の運勢は";
-            switch(lots)
-            {
-                case (1):
-                    label3.Text += "成し遂げたぜ。大吉";
-                    break;
-                case (2):
-                    label3.Text += "まあまあ。吉";
-                    break;
-                default:
-                    label3.Text += "凶";
-                    break;
-            }
+
+            String[] str = new String[3];
+            str[0] += "成し遂げたぜ。大吉";
+            str[1] += "まあまあ。吉";
+            str[2] += "凶";
+
+            label3.Text += str[lots];
+
+            //switch(lots)
+            //{
+            //    case (1):
+            //        label3.Text += "成し遂げたぜ。大吉";
+            //        break;
+            //    case (2):
+            //        label3.Text += "まあまあ。吉";
+            //        break;
+            //    default:
+            //        label3.Text += "凶";
+            //        break;
+            //}
         }
     }
 }
