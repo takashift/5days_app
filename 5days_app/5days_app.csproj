@@ -64,6 +64,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -77,6 +78,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\225px-Japanische_Toilette.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\330px-Togoshi-ginza_street.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\375px-Ginoza_Village_Office.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\405px-Ginza01s3872.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sunamachi_ginza_shopping_street_koto_tokyo_2009.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="unsei03.txt" />
+    <Content Include="unsei05.txt" />
+    <Content Include="unsei04.txt" />
+    <Content Include="unsei02.txt" />
+    <Content Include="unsei01.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
